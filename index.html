@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TOMBLINE Records</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #0a0a0a;
+      color: #eee;
+    }
+    header {
+      background-color: #111;
+      padding: 2rem;
+      text-align: center;
+      border-bottom: 2px solid #444;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 3rem;
+      letter-spacing: 2px;
+    }
+    nav {
+      text-align: center;
+      padding: 1rem;
+    }
+    nav a {
+      margin: 0 1rem;
+      color: #eee;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      color: #ff5555;
+    }
+    section {
+      max-width: 900px;
+      margin: auto;
+      padding: 2rem;
+    }
+    .music-player audio {
+      width: 100%;
+    }
+    form input, form textarea {
+      width: 100%;
+      padding: 0.75rem;
+      margin: 0.5rem 0;
+      background: #222;
+      color: #eee;
+      border: 1px solid #555;
+    }
+    form button {
+      padding: 0.75rem 2rem;
+      background-color: #ff5555;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    footer {
+      background: #111;
+      text-align: center;
+      padding: 1rem;
+      color: #666;
+      border-top: 2px solid #444;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>TOMBLINE Records</h1>
+    <p>The underground never sounded so alive.</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#artists">Artists</a>
+    <a href="#music">Music</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>TOMBLINE Records is a haven for dark, distorted, and deeply emotional music. We push underground sound into the light—then bury it in bass. Born in the digital trenches, raised on vinyl and vengeance.</p>
+  </section>
+
+  <section id="artists">
+    <h2>Our Artists</h2>
+    <ul>
+      <li>GrimEcho</li>
+      <li>VOIDCHILD</li>
+      <li>Reaper x Rose</li>
+      <li>DJ CoffinNail</li>
+    </ul>
+  </section>
+
+  <section id="music" class="music-player">
+    <h2>Listen In</h2>
+    <audio controls>
+      <source src="your-track.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea rows="4" placeholder="Your Message"></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 TOMBLINE Records. All rights reserved. We don't sleep, we create.</p>
+  </footer>
+</body>
+</html>
